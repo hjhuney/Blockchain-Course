@@ -1,12 +1,15 @@
 # Blockchain Course Notes
 
+# Blockchain Intuition
+
 ## Understanding SHA256 Hash
 
 A fingerprint is an identifier of a person. SHA256 Hash is similar to this for the identity of digital documents. 
 "SHA" stands for "Secure Hash Algorithm" and 256 is the number of bits in memory. It's a hexadecimal hash. 
 64 characters. 
 
-[Online Tool for SHA256](https://emn178.github.io/online-tools/sha256.html)
+[Online Tool for SHA256 #1](https://tools.superdatascience.com/blockchain/hash)
+[Online Tool for SHA256 #2](https://emn178.github.io/online-tools/sha256.html)
 
 5 requirements for Hash algorithms:
 
@@ -67,4 +70,12 @@ Nonce ("number used only once"). Changing the nonce changes the hash.
 [Understanding Byzantine Fault Tolerance](https://medium.com/loom-network/understanding-blockchain-fundamentals-part-1-byzantine-fault-tolerance-245f46fe8419)
 
 ## Consensus Protocols
+
+Cryptographic puzzles are hard to solve, but easy to verify. Consensus protocol is that whichever chain has the longest blocks will "win" when there are conflicts. Majority consensus gets accepted. 
+
+[A Short Guide to Blockchain Consensus Protocols](https://www.coindesk.com/short-guide-blockchain-consensus-protocols)
+
+## Blockchain Demo
+
+[Online Example Tool for Blockchain Mining](https://tools.superdatascience.com/blockchain/block)
 
