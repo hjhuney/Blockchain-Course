@@ -36,6 +36,31 @@ Use Cases
 
 [The Blockchain Economy: A Beginner's Guide to Institutional Crypteconomics](https://medium.com/cryptoeconomics-australia/the-blockchain-economy-a-beginners-guide-to-institutional-cryptoeconomics-64bf2f2beec4)
 
-## Distributed P2P Network
+## Distributed Peer-2-Peer Networks
 
+Blockchains copied across multiple computers. More difficult to attack since you'd have to alter the chain over more than 50% of the computers. 
+
+[The Meaning of Decentralization](https://medium.com/@VitalikButerin/the-meaning-of-decentralization-a0c92b76a274)
+
+## Mining
+
+Block normally stores several transactions. 
+
+```
+Block #3
+-----------
+Nonce:
+-----------
+Data
+Kirill -> Hadeline 500 hadcoins
+Kirill -> Ebay 100 hadcoins
+Hadelin -> Joe 70 hadcoins
+-----------
+Prev Hash: 000DF......
+Hash: 8285C31.......
+```
+
+Nonce ("number used only once"). Changing the nonce changes the hash. 
+
+## Byzantine Fault Tolerance
 
